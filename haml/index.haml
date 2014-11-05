@@ -1,68 +1,70 @@
-%head
-  %meta{:charset => "utf-8"}
-    %title Joe Webster's Portfolio
-    %meta{:content => "", :name => "description"}
-      %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}
-        %link{:href => "styles/css/main.css", :rel => "stylesheet"}
+!!! 5
+%html
+  %head
+    %meta{:charset => "utf-8"}
+      %title Joe Webster's Portfolio
+      %meta{:content => "", :name => "description"}
+        %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}
+          %link{:href => "styles/css/main.css", :rel => "stylesheet"}
 
-%header
-  %h1
-    %a{:href => ""} Joe Webster
-  %nav
+  %header
+    %h1
+      %a{:href => ""} Joe Webster
+    %nav
+      %ul
+        %li
+          %a{:href => ""} Work
+        %li
+          %a{:href => ""} About
+        %li
+          %a{:href => ""} Resume
+        %li
+          %a{:href => ""} Contact
+
+  %section
+    %p
+      Hi. I'm Joe Webster, a User Experience Designer and Front End Developer based in LA. I believe in simplicity and efficieny. If my designs enable users to successfully achieve their goals in less thime than ever before then I'm doing my job right. Why? Because time is precious.
+    %a{:href => ""} More about me and what I do 
+
+
+  %section
+    %h2 Featured Work
+    %section
+      %img{:src => "http://placepuppy.it/570/380"}
+        %h3
+          %a{:href => ""} Joeswebster.com
+        %p My personal portfolio
+    %section
+      %img{:src => "http://placepuppy.it/570/380"}
+        %h3
+          %a{:href => ""} Joeswebster.com
+        %p My personal portfolio
+    %section
+      %img{:src => "http://placepuppy.it/570/380"}
+        %h3
+          %a{:href => ""} Joeswebster.com
+        %p My personal portfolio
+    %section
+      %img{:src => "http://placepuppy.it/570/380"}
+        %h3
+          %a{:href => ""} Joeswebster.com
+        %p My personal portfolio
+
+  %footer
+    %p Copyright Joe Webster 2014. This website was designed and coded by Joe Webster.
     %ul
       %li
-        %a{:href => ""} Work
+        %p
+          email:
+          %a{:href => ""} info@joeswebster.com
       %li
-        %a{:href => ""} About
+        %p
+          linkedin:
+          %a{:href => ""} linkedin.com/in/joeswebster
       %li
-        %a{:href => ""} Resume
-      %li
-        %a{:href => ""} Contact
+        %p
+          github:
+          %a{:href => ""} github.com/Joewebsta
 
-%section
-  %p
-    Hi. I'm Joe Webster, a User Experience Designer and Front End Developer based in LA. I believe in simplicity and efficieny. If my designs enable users to successfully achieve their goals in less thime than ever before then I'm doing my job right. Why? Because time is precious.
-  %a{:href => ""} More about me and what I do 
-
-
-%section
-  %h2 Featured Work
-  %section
-    %img{:src => "http://placepuppy.it/570/380"}
-      %h3
-        %a{:href => ""} Joeswebster.com
-      %p My personal portfolio
-  %section
-    %img{:src => "http://placepuppy.it/570/380"}
-      %h3
-        %a{:href => ""} Joeswebster.com
-      %p My personal portfolio
-  %section
-    %img{:src => "http://placepuppy.it/570/380"}
-      %h3
-        %a{:href => ""} Joeswebster.com
-      %p My personal portfolio
-  %section
-    %img{:src => "http://placepuppy.it/570/380"}
-      %h3
-        %a{:href => ""} Joeswebster.com
-      %p My personal portfolio
-
-%footer
-  %p Copyright Joe Webster 2014. This website was designed and coded by Joe Webster.
-  %ul
-    %li
-      %p
-        email:
-        %a{:href => ""} info@joeswebster.com
-    %li
-      %p
-        linkedin:
-        %a{:href => ""} linkedin.com/in/joeswebster
-    %li
-      %p
-        github:
-        %a{:href => ""} github.com/Joewebsta
-
-%script{:src => "scripts/vendor.js"}
-%script{:src => "scripts/main.js"}
+  %script{:src => "scripts/vendor.js"}
+  %script{:src => "scripts/main.js"}
