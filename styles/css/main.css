@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Colfax';
-  src: url('fonts/Colfax-Regular.eot'); }
+  src: url('Colfax-Regular.eot?#iefix') format('embedded-opentype'), url('Colfax-Regular.woff') format('woff'), url('Colfax-Regular.ttf') format('truetype'); }
 
 /*@font-face {
     font-family: 'Colfax';
@@ -11,12 +11,12 @@
     font-family: 'Colfax';
     src: url('fonts/Colfax-Regular.eot');
 }*/
-html {
+h1 {
   font-family: 'Colfax'; }
 
 @font-face {
   font-family: 'Colfax';
-  src: url('fonts/Colfax-Regular.eot'); }
+  src: url('Colfax-Regular.eot?#iefix') format('embedded-opentype'), url('Colfax-Regular.woff') format('woff'), url('Colfax-Regular.ttf') format('truetype'); }
 
 /*@font-face {
     font-family: 'Colfax';
