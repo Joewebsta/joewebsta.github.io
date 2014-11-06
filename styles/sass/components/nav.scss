@@ -9,4 +9,9 @@ nav {
 .nav-item {
   display: inline-block;
   text-transform: uppercase;
+  margin-left: 20px;
+}
+
+.nav-item:first-child {
+  margin-left: 0;
 }
