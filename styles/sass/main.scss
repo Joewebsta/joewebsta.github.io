@@ -1,5 +1,13 @@
+@import "reset";
 @import "base";
 @import "colors";
 @import "fonts";
 @import "jeet";
-@import "reset";
+
+
+/*components*/
+@import "components/header";
+@import "components/nav";
+@import "components/hero";
+@import "components/work";
+

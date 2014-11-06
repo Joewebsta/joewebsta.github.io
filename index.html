@@ -2,99 +2,81 @@
 <html>
   <head>
     <meta charset='utf-8'>
-      <title>Joe Webster's Portfolio</title>
-      <meta content='' name='description'>
-        <meta content='width=device-width, initial-scale=1' name='viewport'>
-          <link href='styles/css/main.css' rel='stylesheet'>
-        </meta>
-      </meta>
-    </meta>
+    <title>Joe Webster's Portfolio</title>
+    <meta content='' name='description'>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <link href='styles/css/main.css' rel='stylesheet'>
   </head>
-  <header>
-    <h1>
-      <a href=''>Joe Webster</a>
-    </h1>
-    <nav>
-      <ul>
-        <li>
-          <a href=''>Work</a>
-        </li>
-        <li>
-          <a href=''>About</a>
-        </li>
-        <li>
-          <a href=''>Resume</a>
-        </li>
-        <li>
-          <a href=''>Contact</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <section>
-    <p>
-      Hi. I'm Joe Webster, a User Experience Designer and Front End Developer based in LA. I believe in simplicity and efficieny. If my designs enable users to successfully achieve their goals in less thime than ever before then I'm doing my job right. Why? Because time is precious.
-    </p>
-    <a href=''>More about me and what I do</a>
-  </section>
-  <section>
-    <h2>Featured Work</h2>
-    <section>
-      <img src='http://placepuppy.it/570/380'>
-        <h3>
-          <a href=''>Joeswebster.com</a>
-        </h3>
-        <p>My personal portfolio</p>
-      </img>
-    </section>
-    <section>
-      <img src='http://placepuppy.it/570/380'>
-        <h3>
-          <a href=''>Joeswebster.com</a>
-        </h3>
-        <p>My personal portfolio</p>
-      </img>
-    </section>
-    <section>
-      <img src='http://placepuppy.it/570/380'>
-        <h3>
-          <a href=''>Joeswebster.com</a>
-        </h3>
-        <p>My personal portfolio</p>
-      </img>
-    </section>
-    <section>
-      <img src='http://placepuppy.it/570/380'>
-        <h3>
-          <a href=''>Joeswebster.com</a>
-        </h3>
-        <p>My personal portfolio</p>
-      </img>
-    </section>
-  </section>
-  <footer>
-    <p>Copyright Joe Webster 2014. This website was designed and coded by Joe Webster.</p>
-    <ul>
-      <li>
+  <body>
+    <header>
+      <div class='wrapper'>
+        <h1 class='header-logo'>
+          <a class='header-link' href=''>Joe Webster</a>
+        </h1>
+        <nav>
+          <ul class='nav-list'>
+            <li class='nav-item'>
+              <a href=''>Work</a>
+            </li>
+            <li class='nav-item'>
+              <a href=''>About</a>
+            </li>
+            <li class='nav-item'>
+              <a href=''>Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class='hero'>
+      <div class='wrapper'>
         <p>
-          email:
-          <a href=''>info@joeswebster.com</a>
+          Hi. I'm Joe Webster, a User Experience Designer and Front End Developer based in LA. I believe in simplicity and efficieny. If my designs enable users to successfully achieve their goals in less thime than ever before then I'm doing my job right. Why? Because time is precious.
         </p>
-      </li>
-      <li>
-        <p>
-          linkedin:
-          <a href=''>linkedin.com/in/joeswebster</a>
-        </p>
-      </li>
-      <li>
-        <p>
-          github:
-          <a href=''>github.com/Joewebsta</a>
-        </p>
-      </li>
-    </ul>
-  </footer>
-  <script src='scripts/vendor.js'></script>
-  <script src='scripts/main.js'></script>
+        <a href=''>More about me and what I do &raquo;</a>
+      </div>
+    </section>
+    <section class='work'>
+      <div class='wrapper'>
+        <div class='work-card'>
+          <h2>Featured Work</h2>
+          <section>
+            <img src='http://placepuppy.it/570/380'>
+              <h3>
+                <a href=''>Joeswebster.com</a>
+              </h3>
+              <p>My personal portfolio</p>
+            </img>
+          </section>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class='wrapper'>
+        <p>Copyright Joe Webster 2014. This website was designed and coded by Joe Webster.</p>
+        <ul>
+          <li>
+            <p>
+              email:
+              <a href=''>info@joeswebster.com</a>
+            </p>
+          </li>
+          <li>
+            <p>
+              linkedin:
+              <a href=''>linkedin.com/in/joeswebster</a>
+            </p>
+          </li>
+          <li>
+            <p>
+              github:
+              <a href=''>github.com/Joewebsta</a>
+            </p>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+  <!-- %script{:src => "scripts/vendor.js"} -->
+  <!-- %script{:src => "scripts/main.js"} -->
 </html>

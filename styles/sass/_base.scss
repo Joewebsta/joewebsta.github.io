@@ -1,11 +1,39 @@
 @import "fonts";
+@import "colors";
+@import "jeet";
 
 html {
-
-  
+  /*@include edit();*/
 }
 
-h1 {
+body {
   font-family: 'Colfax';
-  
+  background: $gray-light;
+}
+
+h1 { }
+h2 { }
+h3 { }
+h4 { }
+h5 { }
+h6 { }
+
+p { 
+  font-size: 18px;
+  color: $blue-dark;
+  line-height: 1.4em;
+}
+
+a { 
+  color: $blue-light;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  padding: 0 20px;
+
 }
