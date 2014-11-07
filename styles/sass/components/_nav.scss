@@ -19,6 +19,11 @@ nav {
   display: inline-block;
   text-transform: uppercase;
   margin-left: 25px;
+  font-weight: bold;
+
+  @media (min-width: 1051px) {
+    margin-left: 45px;
+  }
 }
 
 .nav-item:first-child {

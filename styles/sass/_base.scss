@@ -4,15 +4,20 @@
 
 html {
   /*@include edit();*/
+  border: 4px solid #1b2e4c;
+
+  @media (min-width: 1051px) {
+    border: 8px solid #1b2e4c;
+  }
 }
 
 body {
   font-family: 'Colfax';
   background: $gray-light;
   color: $blue-dark;
+  max-width: 1180px;
+  margin: 0 auto;
 }
-
-
 
 h1 { font-size: 30px; font-weight: bold; }
 h2 { font-size: 24px; font-weight: bold; }
