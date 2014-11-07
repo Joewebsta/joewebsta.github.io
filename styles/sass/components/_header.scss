@@ -1,3 +1,5 @@
+@import "jeet";
+
 header {
   margin-top: 20px;
 }
@@ -6,6 +8,10 @@ header {
   text-transform: uppercase;
   text-align: center;
   font-weight: bold;
+
+  @media (min-width: 600px) {
+    float: left;
+  }
 }
 
 .header-link { 

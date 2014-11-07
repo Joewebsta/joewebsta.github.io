@@ -1,15 +1,24 @@
 nav {
   margin-top: 20px;
+
+  @media (min-width: 600px) {
+    float: right;
+    margin-top: 0px;
+  }
 }
 
 .nav-list {
   text-align: center;
+
+  @media (min-width: 600px) {
+    margin-top: 8px;
+  }
 }
 
 .nav-item {
   display: inline-block;
   text-transform: uppercase;
-  margin-left: 20px;
+  margin-left: 25px;
 }
 
 .nav-item:first-child {
