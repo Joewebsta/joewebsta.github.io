@@ -195,6 +195,9 @@ h2 {
   font-size: 24px;
   font-weight: bold; }
 
+h3 {
+  font-size: 18px; }
+
 p {
   font-size: 18px;
   line-height: 1.4em; }
@@ -205,6 +208,9 @@ a {
 
 img {
   max-width: 100%; }
+
+strong {
+  font-weight: bold; }
 
 .wrapper {
   padding: 0 20px; }
@@ -387,7 +393,7 @@ nav {
   margin-left: 0; }
 
 .hero {
-  margin-top: 40px; }
+  margin-top: 45px; }
 
 .hero-emphasized-block {
   font-weight: bold;
@@ -398,5 +404,31 @@ nav {
   display: inline-block; }
 
 .work {
-  margin-top: 40px; }
+  margin-top: 45px; }
 
+.work-header {
+  margin-bottom: 30px; }
+
+.work-card {
+  margin-bottom: 40px; }
+
+.work-card-header {
+  text-transform: uppercase;
+  margin-top: 10px; }
+
+.work-card-subheader {
+  margin-top: 3px;
+  color: #7b7b7d; }
+
+footer {
+  padding: 5px 0 20px;
+  font-size: 14px; }
+
+.footer-copyright {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 3px; }
+
+.footer-text {
+  font-size: 14px;
+  margin-bottom: 3px; }

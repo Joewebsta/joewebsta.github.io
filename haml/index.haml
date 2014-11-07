@@ -40,29 +40,37 @@
 
     %section.work
       .wrapper
+        %h2.work-header Featured Work
         .work-card
-          %h2.work-card-header Featured Work
-          %section
-            %img{:src => "images/image1.jpg"}
-              %h3
-                %a{:href => ""} Joeswebster.com
-              %p My personal portfolio
+          %a{:href => ""}
+            %img.work-card-image{:src => "images/image1.jpg"}
+            %h3.work-card-header
+              %a{:href => ""} Joeswebster.com
+            %p.work-card-subheader My personal portfolio.
+        
+        .work-card
+          %a{:href => ""}
+            %img.work-card-image{:src => "images/image1.jpg"}
+            %h3.work-card-header
+              %a{:href => ""} Podparazzi
+            %p.work-card-subheader My personal portfolio.
 
     %footer
       .wrapper
-        %p Copyright Joe Webster 2014. This website was designed and coded by Joe Webster.
+        %p.footer-copyright &copy; Copyright Joe Webster 2014
+        %p.footer-text Website designed and coded by Joe
         %ul
           %li
-            %p
-              email:
+            %p.footer-text
+              %strong email:
               %a{:href => ""} info@joeswebster.com
           %li
-            %p
-              linkedin:
+            %p.footer-text
+              %strong linkedin:
               %a{:href => ""} linkedin.com/in/joeswebster
           %li
-            %p
-              github:
+            %p.footer-text
+              %strong github:
               %a{:href => ""} github.com/Joewebsta
 
   / %script{:src => "scripts/vendor.js"}
