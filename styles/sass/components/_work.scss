@@ -20,14 +20,10 @@
 .work-card {
   margin-bottom: 40px;
 
-  /*@include stack();*/
-
   @media (min-width: 767px) {
 
     @include column(1/2, $cycle: 2);
-  }  
-
-  
+  }
 }
 
 .work-card-image {

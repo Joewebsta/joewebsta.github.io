@@ -3,8 +3,8 @@
 @import "jeet";
 
 html {
-  /*@include edit();*/
   border: 4px solid #1b2e4c;
+  min-height: 100%;
 
   @media (min-width: 1051px) {
     border: 8px solid #1b2e4c;
@@ -17,6 +17,10 @@ body {
   color: $blue-dark;
   max-width: 1180px;
   margin: 0 auto;
+
+  @media (min-width: 1051px) {
+    margin: 0 auto 100px;
+  }
 }
 
 h1 { font-size: 30px; font-weight: bold; }
