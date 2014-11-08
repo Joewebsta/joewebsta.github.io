@@ -553,6 +553,10 @@ nav {
   @media (min-width: 1051px) {
     .nav-item {
       margin-left: 45px; } }
+  .nav-item.is-selected {
+    border-bottom: 3px solid #1B2E4C;
+    padding-bottom: 2px;
+    margin-bottom: -2px; }
 
 .nav-item:first-child {
   margin-left: 0; }
