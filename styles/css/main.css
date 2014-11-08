@@ -218,6 +218,9 @@ a {
   color: #3b7fe0;
   text-decoration: none; }
 
+img {
+  max-width: 100%; }
+
 strong {
   font-weight: bold; }
 
@@ -672,3 +675,35 @@ footer {
   @media (min-width: 767px) {
     .footer-text {
       display: inline-block; } }
+
+.project {
+  margin-top: 38px; }
+  @media (min-width: 1051px) {
+    .project {
+      margin-top: 50px; } }
+
+.project-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 27px; }
+  @media (min-width: 1051px) {
+    .project-header {
+      font-size: 60px;
+      margin-top: 36px; } }
+
+.project-subheader {
+  font-size: 18px;
+  color: #7b7b7d; }
+
+.breadcrumb {
+  font-size: 14px; }
+
+.breadcrumb-item {
+  display: inline-block; }
+
+.breadcrumb-arrow {
+  display: inline-block;
+  margin: 0 10px; }
+
+.breadcrumb-selected {
+  display: inline-block; }
