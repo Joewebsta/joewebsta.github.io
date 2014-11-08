@@ -215,9 +215,6 @@ a {
   color: #3b7fe0;
   text-decoration: none; }
 
-img {
-  max-width: 100%; }
-
 strong {
   font-weight: bold; }
 
@@ -579,6 +576,7 @@ nav {
   margin-top: 6px;
   display: inline-block; }
 
+/*@import "jeet";*/
 .work {
   margin-top: 45px; }
   @media (min-width: 1051px) {
@@ -588,8 +586,42 @@ nav {
 .work-header {
   margin-bottom: 30px; }
 
+.work-cards {
+  *zoom: 1; }
+  .work-cards:before, .work-cards:after {
+    content: '';
+    display: table; }
+  .work-cards:after {
+    clear: both; }
+
 .work-card {
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  /*@include stack();*/ }
+  @media (min-width: 767px) {
+    .work-card {
+      *zoom: 1;
+      float: left;
+      clear: none;
+      text-align: inherit;
+      width: 48.5%;
+      margin-left: 0%;
+      margin-right: 3%; }
+      .work-card:before, .work-card:after {
+        content: '';
+        display: table; }
+      .work-card:after {
+        clear: both; }
+      .work-card:nth-child(2n) {
+        margin-right: 0%;
+        float: right; }
+      .work-card:nth-child(2n+1) {
+        clear: both; } }
+
+.work-card-image {
+  width: 100%; }
+  @media (min-width: 767px) {
+    .work-card-image {
+      max-width: 100%; } }
 
 .work-card-header {
   text-transform: uppercase;

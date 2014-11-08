@@ -1,18 +1,41 @@
 @import "../colors";
+/*@import "jeet";*/
 
 .work {
   margin-top: 45px;
+
+  @media (min-width: 1051px) {
+    margin-top: 100px;
+  }
 }
 
 .work-header {
   margin-bottom: 30px;
+} 
+
+.work-cards {
+  @include cf();
 }
 
 .work-card {
   margin-bottom: 40px;
+
+  /*@include stack();*/
+
+  @media (min-width: 767px) {
+
+    @include column(1/2, $cycle: 2);
+  }  
+
+  
 }
 
 .work-card-image {
+  width: 100%;
+
+  @media (min-width: 767px) {
+    max-width: 100%;
+  }
 }
 
 .work-card-header {
