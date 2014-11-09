@@ -806,6 +806,25 @@ footer {
     .project-image {
       margin-top: 25px; } }
 
+.project-image-half {
+  margin-top: 15px; }
+  @media (min-width: 767px) {
+    .project-image-half {
+      *zoom: 1;
+      float: left;
+      clear: none;
+      text-align: inherit;
+      width: 48.5%;
+      margin-left: 0%;
+      margin-right: 3%; }
+      .project-image-half:before, .project-image-half:after {
+        content: '';
+        display: table; }
+      .project-image-half:after {
+        clear: both; }
+      .project-image-half:last-child {
+        margin-right: 0%; } }
+
 .project-full-width-quote {
   text-align: center;
   margin-top: 15px;

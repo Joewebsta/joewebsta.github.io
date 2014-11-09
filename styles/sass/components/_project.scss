@@ -107,6 +107,14 @@
   }
 }
 
+.project-image-half {
+  margin-top: 15px;
+
+  @media (min-width: 767px) {
+    @include column(1/2);
+  }
+}
+
 .project-full-width {
 
 }
