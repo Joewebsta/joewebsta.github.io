@@ -1,6 +1,6 @@
 .project {
   
-  margin-top: 38px;
+  margin: 38px 0 40px;
 
   @media (min-width: 1051px) {
     margin-top: 50px;
@@ -21,6 +21,7 @@
 
 .project-subheader {
   font-size: 18px;
+  margin-top: 10px;
   color: $gray-dark;
 }
 
@@ -29,26 +30,50 @@
 }
 
 .project-main {
-  
+  margin-top: 30px;
+
   @media (min-width: 767px) {
     @include column(2/3);
   }
 }
 
+.project-main-header {
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
 .project-main-offset {
-  
+  margin-top: 30px;
+
   @media (min-width: 767px) {
     @include column(2/3, $offset: 1/3);
   }
 }
 
 .project-aside {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $gray-dark;
+  margin-top: 40px;
+
+  &.reduced-margin {
+    margin-top: 20px;
+  }
 
   @media (min-width: 767px) {
     @include column(1/3);
   }
 }
 
+.project-text{
+}
+
+.project-image {
+  margin-top: 15px;
+}
+
 .project-full-width {
-  clear:both;
+
 }
