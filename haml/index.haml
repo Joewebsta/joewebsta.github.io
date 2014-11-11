@@ -42,17 +42,25 @@
         %h2.work-header Featured Work
         .work-cards
           .work-card
+            %a{:href => "work/joeswebster.html"}
+              %img.work-card-image{:src => "images/joeswebster.jpg"}
+              %h3.work-card-header
+                %a.work-card-link{:href => "work/joeswebster.html"} Joeswebster.com
+              %p.work-card-subheader My personal portfolio
+
+          .work-card
             %a{:href => "work/weddingdressfantasy.html"}
               %img.work-card-image{:src => "images/wdf.jpg"}
               %h3.work-card-header
                 %a.work-card-link{:href => "work/weddingdressfantasy.html"} Wedding Dress Fantasy
               %p.work-card-subheader Alternative and traditional wedding dresses for the unique bride-to-be
-          .work-card
-            %a{:href => "work/joeswebster.html"}
-              %img.work-card-image{:src => "images/podparazzi.jpg"}
-              %h3.work-card-header
-                %a.work-card-link{:href => "work/joeswebster.html"} Podparazzi
-              %p.work-card-subheader Find and discover podcast episodes featuring your favorite celebrities
+          
+          / .work-card
+          /   %a{:href => "work/joeswebster.html"}
+          /     %img.work-card-image{:src => "images/podparazzi.jpg"}
+          /     %h3.work-card-header
+          /       %a.work-card-link{:href => "work/joeswebster.html"} Podparazzi
+          /     %p.work-card-subheader Find and discover podcast episodes featuring your favorite celebrities
 
     %footer
       .wrapper
