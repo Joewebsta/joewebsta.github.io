@@ -825,6 +825,24 @@ footer {
       .project-image-half:last-child {
         margin-right: 0%; } }
 
+.project-button {
+  display: block;
+  text-align: center;
+  background: #3b7fe0;
+  font-size: 16px;
+  padding: 20px 0;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 15px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2); }
+  .project-button:hover {
+    background: #2F65B2; }
+  @media (min-width: 1051px) {
+    .project-button {
+      font-size: 18px;
+      margin-top: 25px;
+      width: 50%; } }
+
 .project-full-width-quote {
   text-align: center;
   margin-top: 15px;
