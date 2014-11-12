@@ -103,7 +103,7 @@
 .project-image {
   margin-top: 15px;
 
-  
+
 
   @media (min-width: 1051px) {
     margin-top: 25px;
@@ -140,9 +140,6 @@
   }
 }
 
-.project-full-width {
-
-}
 
 .project-full-width-quote {
   text-align: center;
@@ -150,5 +147,17 @@
   background: #1b2e4c;
   padding: 30px;
   color: white;
+}
+
+.project-spacer {
+  display: none;
+
+  @media (min-width: 1051px) {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: $blue-dark;
+    margin-top: 50px;
+  }
 }
 
