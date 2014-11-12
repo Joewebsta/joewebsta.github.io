@@ -1,0 +1,7 @@
+.margin-bottom {
+  margin-bottom: 15px;
+
+  @media (min-width: 1051px) {
+    margin-bottom: 25px;
+  }
+}
