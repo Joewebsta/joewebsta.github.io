@@ -2,11 +2,10 @@
 %html
   %head
     %meta{:charset => "utf-8"}
-    %title Work
+    %title Joe Webster - Work
     %meta{:content => "", :name => ""}
     %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}
     %link{:href => "styles/css/main.css", :rel => "stylesheet"}
-
 
   %body
     %header
@@ -18,9 +17,9 @@
             %li.nav-item.is-selected
               %a{:href => "work.html"} Work
             %li.nav-item
-              %a{:href => ""} About
+              %a{:href => "#"} About
             %li.nav-item
-              %a{:href => ""} Contact
+              %a{:href => "#"} Contact
 
   %section.work
     .wrapper
@@ -28,32 +27,32 @@
       .work-cards
         .work-card
           %a{:href => "joeswebster.html"}
-            %img.work-card-image{:src => "images/joeswebster.jpg"}
+            %img.work-card-image{:src => "images/work-joeswebster.jpg"}
             %h3.work-card-header
               %a.work-card-link{:href => "joeswebster.html"} Joeswebster.com
             %p.work-card-subheader My personal portfolio
         
         .work-card
-          %a{:href => "work/weddingdressfantasy.html"}
-            %img.work-card-image{:src => "images/wdf.jpg"}
+          %a{:href => "weddingdressfantasy.html"}
+            %img.work-card-image{:src => "images/work-wdf.jpg"}
             %h3.work-card-header
-              %a.work-card-link{:href => "work/weddingdressfantasy.html"} Wedding Dress Fantasy
+              %a.work-card-link{:href => "weddingdressfantasy.html"} Wedding Dress Fantasy
             %p.work-card-subheader My personal portfolio.
 
-%footer
-  .wrapper
-    %p.footer-copyright &copy; Copyright Joe Webster 2014
-    %p.footer-text Website designed and coded by Joe
-    %ul.social-links
-      %li.social-link
-        %p.footer-text
-          %strong email:
-          %a{:href => ""} info@joeswebster.com
-      %li.social-link
-        %p.footer-text
-          %strong linkedin:
-          %a{:href => ""} linkedin.com/in/joeswebster
-      %li.social-link
-        %p.footer-text
-          %strong github:
-          %a{:href => ""} github.com/Joewebsta
+    %footer
+      .wrapper
+        %p.footer-copyright &copy; Copyright Joe Webster 2014
+        %p.footer-text Website designed and coded by Joe
+        %ul.social-links
+          %li.social-link
+            %p.footer-text
+              %strong email:
+              %a{:href => "#"} hello@joeswebster.com
+          %li.social-link
+            %p.footer-text
+              %strong linkedin:
+              %a{:href => "https://www.linkedin.com/in/joeswebster", :target => "_blank"} linkedin.com/in/joeswebster
+          %li.social-link
+            %p.footer-text
+              %strong github:
+              %a{:href => "https://github.com/Joewebsta", :target => "_blank"} github.com/joewebsta
