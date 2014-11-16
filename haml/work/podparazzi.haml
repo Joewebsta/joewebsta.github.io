@@ -1,0 +1,153 @@
+!!! 5
+%html
+  %head
+    %meta{:charset => "utf-8"}
+    %title Podparazzi - Joe Webster
+    %link{:href => "images/joe.ico", :rel => "shortcut icon"}
+    %meta{:content => "", :name => ""}
+    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}
+    %link{:href => "styles/css/main.css", :rel => "stylesheet"}
+
+  %body
+    %header
+      .wrapper
+        %h1.header-logo
+          %a.header-link{:href => "index.html"} Joe Webster
+        %nav
+          %ul.nav-list
+            %li.nav-item.is-selected
+              %a{:href => "work.html"} Work
+            %li.nav-item
+              %a{:href => "#"} About
+            %li.nav-item
+              %a{:href => "#"} Contact
+
+    %section.project
+      .wrapper
+        .project-header Podparazzi
+        .project-subheader Follow your favorite celebrities' podcast appearances
+        .project-row
+          %img.project-image{:alt => "", :src => "images/podparazzi-hero.jpg"}
+        .project-row
+          .project-aside.reduced-margin
+            Overview
+          .project-main
+            %p.project-text
+              I built Joeswebster.com to demonstrate to the world who I am and the UX work I&rsquo;m capable of. I treated the creation of my portfolio like any other project and applied the full UX design process.
+        .project-spacer
+        .project-row
+          .project-aside
+            Brand Development
+          .project-main
+            .project-main-header Core Purpose Ideation
+            %p.project-text
+              It was important that I first defined my core purpose because it would set the tone and communicate the type of work I strive to create. After several sessions of an iterative question-asking technique called &ldquo;5 Whys&rdquo; I came up with the following purpose: 
+        .project-row
+          .project-full-width-quote
+            %p.project-text
+              "I strive to build products that enable users to successfully achieve their goals in less time than ever. Why? Because time is precious."
+        .project-row
+          .project-main-offset
+            .project-main-header Personality Trait Brainstorming
+            %p.project-text
+              I wanted the look and feel of my portfolio to closely match my own personality so I recruited my UX designer friends to help me better understand the adjectives, animals and celebrities that best describe me.
+            %img.project-image{:alt => "", :src => "images/jsw-personality-traits.jpg"}
+        .project-row
+          .project-main-offset
+            .project-main-header Moodboard
+            %p.project-text
+              Creating a collage of images helped me visually explore and convey the essence of my personal brand. I analyzed the images I collected and decided that my portfolio&rsquo;s visual design should embody the following adjectives: modern, clean and minimalist.
+        .project-row
+          .project-full-width
+            %img.project-image{:alt => "", :src => "images/jsw-moodboard.jpg"}
+        .project-spacer
+        .project-row
+          .project-aside
+            Research
+          .project-main
+            .project-main-header Online Portfolio Best Practices
+            %p.project-text
+              I collected portfolio tips from two hiring manager interviews and various website articles and then wrote them on individual post-it notes. I organized the notes into four themes: Info, Audience, My Work, and Design and referred to them several times throughout the UX process.
+            %img.project-image{:alt => "", :src => "images/jsw-best-practices.jpg"}
+        .project-row
+          .project-main-offset
+            .project-main-header Persona Development
+            %p.project-text
+              In the process of researching portfolio best practices I was able to create a persona hypothesis. Doing so helped me better understand the perspective and needs of my primary persona: the busy hiring manager.
+        .project-row
+          .project-full-width
+            %img.project-image{:alt => "", :src => "images/jsw-persona.jpg"}
+        .project-row
+          .project-main-offset
+            .project-main-header Competitive Analysis
+            %p.project-text
+              A competitive analysis of other portfolios&rsquo; navigation elements helped me define my own. I tallied the frequency of nav elements from a handful of portfolios(1) and ordered them by total(2). I then explored different ways to say the most popular elements(3) and then selected my favorites(4).
+            %img.project-image{:alt => "", :src => "images/jsw-competitive-analysis.jpg"}
+        .project-spacer
+        .project-row
+          .project-aside
+            Plan
+          .project-main
+            .project-main-header User Flow
+            %p.project-text
+              A user flow helped my better understand the path by which hiring managers and other users would navigate through and interact with my portfolio.
+            %img.project-image{:alt => "", :src => "images/jsw-user-flow.jpg"}
+        .project-spacer
+        .project-row
+          .project-aside
+            Design
+          .project-main
+            .project-main-header Sketches
+            %p.project-text
+              As I entered the design phase I started with sketching. Using a few portfolio sites as inspiration I tested a number of potential layouts by concurrently sketching for mobile, tablet and desktop devices. Below are sketches of the current website layout.
+        .project-row
+          .project-main-images
+            .project-full-width
+              %img.project-image-half{:alt => "", :src => "images/jsw-sketch1.jpg"}  
+              %img.project-image-half{:alt => "", :src => "images/jsw-sketch2.jpg"}
+        .project-row
+          .project-main-offset
+            .project-main-header Style Tile
+            %p.project-text
+              Although my initial moodboard aided in defining my brand, it was too vague. I built upon my previous work by creating a style tile that defined my portfolio&rsquo;s typography, colors and general visual language. 
+            %img.project-image{:alt => "", :src => "images/jsw-style-tile2.jpg"}
+        .project-row
+          .project-main-offset
+            .project-main-header High Fidelity Mockups
+            %p.project-text
+              Sketched layouts and style tile complete, I combined the two deliverables to create Adobe Illustrator mockups. I prefer wrapping up the visual design prior to moving into development so that I can code independently of making design decisions. 
+        .project-spacer
+        .project-row
+          .project-aside
+            Development
+          .project-main
+            .project-main-header Responsive Website Development
+            %p.project-text
+              I coded the website responsively so it was accessible and easy to consume on all devices. I used a variety of web technologies to build my portfolio including HTML, CSS/SASS, Jquery, the Jeet grid system, git and github pages. 
+            %img.project-image{:alt => "", :src => "images/jsw-web-trifecta2.jpg"}
+        .project-spacer   
+        .project-row
+          .project-aside
+            Testing
+          .project-main
+            .project-main-header Usability Testing and Feedback
+            %p.project-text
+              Once my website was deployed, I asked friends and family to test drive my site. I gained valuable feedback and incorporated it into the design of my portfolio.
+
+    %footer
+      .wrapper
+        %p.footer-copyright &copy; Copyright Joe Webster 2014
+        %p.footer-text Website designed and coded by Joe
+        %ul.social-links
+          %li.social-link
+            %p.footer-text
+              %strong email:
+              %a{:href => "#"} hello@joeswebster.com
+          %li.social-link
+            %p.footer-text
+              %strong linkedin:
+              %a{:href => "https://www.linkedin.com/in/joeswebster", :target => "_blank"} linkedin.com/in/joeswebster
+          %li.social-link
+            %p.footer-text
+              %strong github:
+              %a{:href => "https://github.com/Joewebsta", :target => "_blank"} github.com/joewebsta

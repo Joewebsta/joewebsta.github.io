@@ -312,6 +312,14 @@ table {
  * Apply a clearfix to an element.
  */
 html {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box; }
+
+*, *:before, *:after {
+  -moz-box-sizing: inherit;
+       box-sizing: inherit; }
+
+html {
   border: 4px solid #1b2e4c;
   min-height: 100%; }
   @media (min-width: 1051px) {
