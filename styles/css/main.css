@@ -384,12 +384,6 @@ strong {
   src: url('../../fonts/Colfax-Bold.eot');
   src: url('../../fonts/Colfax-Bold.eot?#iefix') format('embedded-opentype'), url('../../fonts/Colfax-Bold.woff') format('woff'), url('../../fonts/Colfax-Bold.ttf') format('truetype'); }
 
-.margin-bottom {
-  margin-bottom: 15px; }
-  @media (min-width: 1051px) {
-    .margin-bottom {
-      margin-bottom: 25px; } }
-
 /*components*/
 /*  Syntax Quick Reference
   --------------------------
@@ -807,6 +801,18 @@ footer {
     font-size: 22px;
     line-height: 1.5em; } }
 
+.project-text + .project-text {
+  margin-top: 15px; }
+  @media (min-width: 1051px) {
+    .project-text + .project-text {
+      margin-top: 25px; } }
+
+.project-main-header + .project-text {
+  margin-bottom: 20px; }
+  @media (min-width: 1051px) {
+    .project-main-header + .project-text {
+      margin-bottom: 30px; } }
+
 .project-image {
   margin-top: 15px; }
   @media (min-width: 1051px) {
@@ -879,3 +885,18 @@ footer {
 
 .breadcrumb-selected {
   display: inline-block; }
+
+.about-image {
+  margin-bottom: 15px; }
+  @media (min-width: 1051px) {
+    .about-image {
+      margin-bottom: 25px; } }
+
+.margin-bottom {
+  margin-bottom: 15px; }
+  @media (min-width: 1051px) {
+    .margin-bottom {
+      margin-bottom: 25px; } }
+
+.no-margin-bottom {
+  margin-bottom: 0 !important; }

@@ -1,11 +1,8 @@
-.margin-bottom {
+.about-image {
   margin-bottom: 15px;
 
   @media (min-width: 1051px) {
+
     margin-bottom: 25px;
   }
-}
-
-.no-margin-bottom {
-  margin-bottom: 0 !important;
 }
