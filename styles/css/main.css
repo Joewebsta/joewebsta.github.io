@@ -892,6 +892,31 @@ footer {
     .about-image {
       margin-bottom: 25px; } }
 
+@media (min-width: 1051px) {
+  .about-text {
+    font-size: 22px;
+    line-height: 1.5em; } }
+
+.about-text + .about-text {
+  margin-top: 15px; }
+  @media (min-width: 1051px) {
+    .about-text + .about-text {
+      margin-top: 25px; } }
+
+.about-emphasized {
+  font-weight: bold; }
+
+.about-main-header {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 22px; }
+  @media (min-width: 1051px) {
+    .about-main-header {
+      font-size: 30px;
+      margin-top: 40px;
+      margin-bottom: 25px; } }
+
 .margin-bottom {
   margin-bottom: 15px; }
   @media (min-width: 1051px) {
