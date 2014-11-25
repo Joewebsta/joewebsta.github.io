@@ -948,10 +948,10 @@ footer {
       margin: 30px 0 80px; } }
 
 .contact-icon-list {
-  margin: 10px 0 250px; }
+  margin: 10px 0 40px; }
   @media (min-width: 1051px) {
     .contact-icon-list {
-      margin: 10px 0 100px; } }
+      margin: 10px 0 20px; } }
 
 .icon-list-item {
   display: inline-block;
