@@ -132,6 +132,10 @@
 .project-image-half {
   margin-top: 15px;
 
+/*  &:nth-child(even) {
+    margin-right: 0;
+  }*/
+
   @media (min-width: 767px) {
     @include column(1/2);
   }

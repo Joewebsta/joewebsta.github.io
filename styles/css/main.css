@@ -825,7 +825,10 @@ footer {
       margin-top: 25px; } }
 
 .project-image-half {
-  margin-top: 15px; }
+  margin-top: 15px;
+  /*  &:nth-child(even) {
+    margin-right: 0;
+  }*/ }
   @media (min-width: 767px) {
     .project-image-half {
       *zoom: 1;
