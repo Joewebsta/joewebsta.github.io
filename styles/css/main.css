@@ -965,7 +965,7 @@ footer {
 .no-margin-bottom {
   margin-bottom: 0 !important; }
 
-/*.shame-process-text {
+.shame-process-text {
   margin-bottom: 20px;
   font-size: 18px;
 
@@ -973,4 +973,4 @@ footer {
     font-size: 22px;
     margin-bottom: 30px;
   }
-}*/
+}
