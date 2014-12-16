@@ -9,3 +9,13 @@
 .no-margin-bottom {
   margin-bottom: 0 !important;
 }
+
+.shame-process-text {
+  margin-bottom: 20px;
+  font-size: 18px;
+
+  @media (min-width: 1051px) {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+}

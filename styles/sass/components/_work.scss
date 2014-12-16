@@ -19,7 +19,7 @@
 .work-card {
   margin-bottom: 40px;
 
-  @media (min-width: 767px) {
+  @media (min-width: 769px) {
 
     @include column(1/2, $cycle: 2);
   }
@@ -28,7 +28,7 @@
 .work-card-image {
   width: 100%;
 
-  @media (min-width: 767px) {
+  @media (min-width: 769px) {
     max-width: 100%;
   }
 }

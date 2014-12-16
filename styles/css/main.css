@@ -554,7 +554,7 @@ nav {
   margin-left: 15px;
   font-size: 12px;
   font-weight: bold; }
-  @media (min-width: 767px) {
+  @media (min-width: 769px) {
     .nav-item {
       font-size: 16px;
       margin-left: 25px; } }
@@ -610,7 +610,7 @@ nav {
 
 .work-card {
   margin-bottom: 40px; }
-  @media (min-width: 767px) {
+  @media (min-width: 769px) {
     .work-card {
       *zoom: 1;
       float: left;
@@ -632,7 +632,7 @@ nav {
 
 .work-card-image {
   width: 100%; }
-  @media (min-width: 767px) {
+  @media (min-width: 769px) {
     .work-card-image {
       max-width: 100%; } }
 
@@ -658,11 +658,11 @@ footer {
     footer {
       margin-top: 60px; } }
 
-@media (min-width: 767px) {
+@media (min-width: 769px) {
   .social-links {
     margin-top: 10px; } }
 
-@media (min-width: 767px) {
+@media (min-width: 769px) {
   .social-link {
     margin-left: 25px;
     display: inline-block; }
@@ -673,7 +673,7 @@ footer {
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 3px; }
-  @media (min-width: 767px) {
+  @media (min-width: 769px) {
     .footer-copyright {
       margin: 0 25px 0 0;
       display: inline-block; } }
@@ -681,7 +681,7 @@ footer {
 .footer-text {
   font-size: 14px;
   margin-bottom: 3px; }
-  @media (min-width: 767px) {
+  @media (min-width: 769px) {
     .footer-text {
       display: inline-block; } }
 
@@ -718,7 +718,7 @@ footer {
 
 .project-main {
   margin-top: 20px; }
-  @media (min-width: 767px) {
+  @media (min-width: 769px) {
     .project-main {
       *zoom: 1;
       float: left;
@@ -749,7 +749,7 @@ footer {
 
 .project-main-offset {
   margin-top: 30px; }
-  @media (min-width: 767px) {
+  @media (min-width: 769px) {
     .project-main-offset {
       *zoom: 1;
       float: left;
@@ -777,7 +777,7 @@ footer {
   margin-top: 40px; }
   .project-aside.reduced-margin {
     margin-top: 20px; }
-  @media (min-width: 767px) {
+  @media (min-width: 769px) {
     .project-aside {
       *zoom: 1;
       float: left;
@@ -812,12 +812,6 @@ footer {
     .project-text + .project-text {
       margin-top: 25px; } }
 
-.project-main-header + .project-text {
-  margin-bottom: 20px; }
-  @media (min-width: 1051px) {
-    .project-main-header + .project-text {
-      margin-bottom: 30px; } }
-
 .project-image {
   margin-top: 15px; }
   @media (min-width: 1051px) {
@@ -829,7 +823,7 @@ footer {
   /*  &:nth-child(even) {
     margin-right: 0;
   }*/ }
-  @media (min-width: 767px) {
+  @media (min-width: 769px) {
     .project-image-half {
       *zoom: 1;
       float: left;
@@ -970,3 +964,11 @@ footer {
 
 .no-margin-bottom {
   margin-bottom: 0 !important; }
+
+.shame-process-text {
+  margin-bottom: 20px;
+  font-size: 18px; }
+  @media (min-width: 1051px) {
+    .shame-process-text {
+      font-size: 30px;
+      margin-bottom: 30px; } }
