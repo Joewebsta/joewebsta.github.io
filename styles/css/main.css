@@ -965,10 +965,12 @@ footer {
 .no-margin-bottom {
   margin-bottom: 0 !important; }
 
-.shame-process-text {
+/*.shame-process-text {
   margin-bottom: 20px;
-  font-size: 18px; }
+  font-size: 18px;
+
   @media (min-width: 1051px) {
-    .shame-process-text {
-      font-size: 30px;
-      margin-bottom: 30px; } }
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+}*/
