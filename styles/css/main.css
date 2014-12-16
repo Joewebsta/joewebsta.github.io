@@ -967,10 +967,8 @@ footer {
 
 .shame-process-text {
   margin-bottom: 20px;
-  font-size: 18px;
-
+  font-size: 18px; }
   @media (min-width: 1051px) {
-    font-size: 22px;
-    margin-bottom: 30px;
-  }
-}
+    .shame-process-text {
+      font-size: 22px;
+      margin-bottom: 30px; } }
